@@ -13,6 +13,7 @@ float imageHeightRatio = 720.0/1280.0; //must be deciamls due to float, <1 for a
 imageX = width*0;
 imageY = height*0;
 imageWidth = width*imageWidthRatio;
+println(imageWidth);
 imageHeight = height;
 //If Image aspect ratio doesn't work: don't use *imageHeightRatio
 //Image must be smaller than the canvas or Display
