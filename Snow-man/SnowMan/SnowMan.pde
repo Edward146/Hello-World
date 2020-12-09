@@ -32,8 +32,9 @@ noseX2 = width*11/20;
 noseY2 = height*9/50;
 noseX3 = width*1/2;
 noseY3 = height*11/60;
-coal1X = width ; 
-coal1Y = height ; 
+coal1X = width*1/10; 
+coal1Y = height*6/30; 
+coalDiameter = height*1/70;
 //
 //The SnowMan
 //
@@ -47,9 +48,10 @@ ellipse(leftEyeX, leftEyeY, eyeDiameter, eyeDiameter);
 ellipse(rightEyeX, rightEyeY, eyeDiameter, eyeDiameter);
 //Nose
 triangle(noseX1, noseY1, noseX2, noseY2, noseX3, noseY3);
-/*
+
 //Mouth
 ellipse(coal1X, coal1Y, coalDiameter, coalDiameter);
+/*
 ellipse(coal2X, coal2Y, coalDiameter, coalDiameter);
 ellipse(coal3X, coal3Y, coalDiameter, coalDiameter);
 ellipse(coal4X, coal4Y, coalDiameter, coalDiameter);
