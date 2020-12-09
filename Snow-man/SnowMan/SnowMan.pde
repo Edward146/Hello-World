@@ -3,7 +3,7 @@ float snowManSquareX, snowManSquareY, snowManSquareSide;
 float faceX, faceY, faceDiameter;
 float leftEyeX, leftEyeY, eyeDiameter;
 float rightEyeX, rightEyeY;
-float noseX1, NoseY1, noseX2, noseY2, noseX3, noseY3;
+float noseX1, noseY1, noseX2, noseY2, noseX3, noseY3;
 float coal1X, coal1Y, coalDiameter;
 float coal2X, coal2Y;
 float coal3X, coal3Y;
@@ -27,11 +27,13 @@ rightEyeX = width*26/50;
 rightEyeY = height*6/40;
 eyeDiameter = height*1/50;
 noseX1 = width*1/2;
-noseY1 = height*1/12;
-noseX2 = ;
-noseY2 = ;
-noseX3 = ;
-noseY3 = ;
+noseY1 = height*1/6;
+noseX2 = width*11/20;
+noseY2 = height*9/50;
+noseX3 = width*1/2;
+noseY3 = height*11/60;
+coal1X = width ; 
+coal1Y = height ; 
 //
 //The SnowMan
 //
@@ -44,7 +46,7 @@ ellipse(leftEyeX, leftEyeY, eyeDiameter, eyeDiameter);
 //Right Eye
 ellipse(rightEyeX, rightEyeY, eyeDiameter, eyeDiameter);
 //Nose
-triangle(noseX1, NoseY1, noseX2, noseY2, noseX3, noseY3);
+triangle(noseX1, noseY1, noseX2, noseY2, noseX3, noseY3);
 /*
 //Mouth
 ellipse(coal1X, coal1Y, coalDiameter, coalDiameter);
